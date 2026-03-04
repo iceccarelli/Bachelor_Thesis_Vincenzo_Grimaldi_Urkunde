@@ -1,4 +1,3 @@
-"""
 # Bachelor_Thesis_Vincenzo_Grimaldi_Urkunde
 
 ## Certification of Expertise: Bachelor's Thesis in Cyber Intelligence for Smart Grids
@@ -86,4 +85,3 @@ To ensure full reproducibility and verification of the claims, follow these step
     Open the Jupyter notebooks (`01_Verify_Thesis.ipynb` and `02_Expertise_Analysis.ipynb`) to delve into the detailed verification process, interactive analyses, and simulations.
 
 This package provides an unassailable proof of the academic rigor and specialized knowledge acquired, directly supporting the critical demands of modern energy infrastructure and cybersecurity.
-"""
