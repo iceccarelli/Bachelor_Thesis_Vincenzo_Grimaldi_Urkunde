@@ -1,9 +1,48 @@
 section,detail_key,detail_value
-General,Name,Vincenzo Ceccarelli Grimaldi
+General,Author,Vincenzo Ceccarelli Grimaldi
+General,Matriculation Number,353970
+General,University,RWTH Aachen University
+General,Institute,Institute of High Voltage Equipment and Grids (IAEW)
+General,Date of Acknowledgement,17.01.2021
 Thesis,Title (English),Development of a Cross-domain Knowledge Base for Cyber Intelligence in Smart Grids
 Thesis,Title (German),Entwicklung einer domänenübergreifenden Wissensdatenbank für Cyber Intelligence in Smart Grids
-Thesis,"Supervisor 1","Ömer Sen, M.Sc."
-Thesis,"Supervisor 2","Dennis Van der Velde, M.Sc."
+Thesis,Supervisor 1,Ömer Sen, M.Sc.
+Thesis,Supervisor 2,Dennis Van der Velde, M.Sc.
+Thesis,Chair of Examination Board,Univ.-Prof. Dr.-Ing. Andreas Ulbig
 Thesis,Date of Application,08.01.2021
 Thesis,Date of Submission,17.01.2021
-Signatures,"Chair of Examination Board","Univ.-Prof. Dr.-Ing. Andreas Ulbig"
+Thesis,Main Objective,Create a feasible graph-based knowledge base using Neo4j to detect Advanced Persistent Threats (APTs) in Smart Grids through cross-domain data modeling, link analysis and cyber intelligence
+Thesis,Core Methodology,Passive IoT traffic collection → Graph DB storage → Link analysis + Similarity algorithms for anomaly/threat detection
+Chapters,Chapter 1 Title,Introduction – Motivation and Structured Objective
+Chapters,Chapter 1 Page,10
+Chapters,Chapter 2 Title,Theoretical Background – Network Protocols, Smart Grids, ICT and SCADA
+Chapters,Chapter 2 Page,14
+Chapters,Chapter 3 Title,Models and Graphs – NoSQL, Neo4j, Cypher, Caching Layers
+Chapters,Chapter 3 Page,23
+Chapters,Chapter 4 Title,Approach, Results and Discussion – Link Analysis, Similarity Algorithms, Dataflow in Blackbox
+Chapters,Chapter 4 Page,38
+Chapters,Chapter 5 Title,Conclusion – Summary and Future Work
+Chapters,Chapter 5 Page,47
+Key_Facts,Investment Needed,$13 billion in electric infrastructure over next 20+ years
+Key_Facts,IoT Projection (Cisco),14 billion artifacts by 2022
+Key_Facts,Smart Grid Goal,Self-healing, scalable, renewable-integrated energy networks
+Technologies,Main Database,Neo4j (open-source graph database)
+Technologies,Query Language,Cypher
+Technologies,Key Systems,SCADA, RTU, MTU, IED, PLC, HMI
+Technologies,Cloud Layers,SaaS / PaaS / IaaS + Fog Computing
+Contributions,Primary Contribution,Cross-domain knowledge base ontology using graph modeling for cyber intelligence
+Contributions,Secondary Contribution,Application of link analysis and similarity algorithms for real-time APT detection in Smart Grids
+Threats,Primary Focus,Advanced Persistent Threats (APTs)
+Threats,Threat 1,DDoS / TCP-UDP-ICMP Flood attacks
+Threats,Threat 2,Man-in-the-Middle (MitM)
+Threats,Threat 3,Remote Code Execution (RCE)
+Threats,Threat 4,Denial of Service (DoS) + Port Scanning on IoT
+Threats,Threat 5,Compromised IoT devices in distribution grid
+Abbreviations,SCADA,Supervisory Control and Data Acquisition
+Abbreviations,RTU,Remote Terminal Unit
+Abbreviations,MTU,Master Terminal Unit
+Abbreviations,IED,Intelligent Electric Device
+Abbreviations,PLC,Programmable Logic Controller
+Key_Terms,Graph Advantage,Handles complex relationships, traversals and caching far better than relational DBs at scale
+Key_Terms,Core Algorithm,Similarity Algorithms + Link Analysis on Neo4j
+Key_Terms,Cyber Intelligence Goal,Identify compromised IoT devices and anomalies in real time within Smart Grid networks
