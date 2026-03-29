@@ -10,7 +10,7 @@ This repository contains my complete Bachelor's thesis from RWTH Aachen Universi
 **Supervisors:** Ömer Sen, M.Sc. & Dennis Van der Velde, M.Sc.  
 **Submitted:** 17 January 2021  
 
-### Mark Given by Professor Ǔlbig: 3.0
+### Mark Given by Professor Ulbig: 3.0
 
 It focuses on building a knowledge base for better cybersecurity in smart grids using cross-domain data modeling and cyber intelligence.
 
