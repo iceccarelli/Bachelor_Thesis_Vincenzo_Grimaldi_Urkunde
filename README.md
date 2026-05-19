@@ -113,8 +113,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    IoT[IoT Device Traffic] --> Capture[Packet Capture<br/>(tcpdump/Wireshark)]
-    Capture --> Extract[Extract features:<br/>protocol, ports, packet sizes]
+    IoT[IoT Device Traffic] --> Capture["Packet Capture (tcpdump/Wireshark)"]
+    Capture --> Extract["Extract features:\nprotocol, ports, packet sizes"]
     Extract --> Graph[(Neo4j Graph)]
     Graph --> Cosine[Cosine Similarity]
     Graph --> Pearson[Pearson Correlation]
@@ -122,7 +122,7 @@ flowchart LR
     Cosine --> Score[Similarity Score 0-1]
     Pearson --> Score2[Score -1 to 1]
     Jaccard --> Score3[Score 0-1]
-    Score --> Decision{Threshold<br/>< 0.7?}
+    Score --> Decision{Threshold < 0.7?}
     Decision -- Yes --> Alert[Anomaly / Possible Compromise]
     Decision -- No --> Normal[Normal Traffic]
 ```
